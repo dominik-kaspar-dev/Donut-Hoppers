@@ -1,0 +1,18 @@
+name: Donut Hoppers
+main: com.donuthoppers.DonutHoppersPlugin
+version: 1.0.0
+api-version: 1.21
+load: STARTUP
+author: dominik-kaspar-dev
+commands:
+  hoppers:
+    description: Main Donut Hoppers command.
+    usage: /<command> <reload|info>
+    aliases: [donuthoppers]
+permissions:
+  hoppers.reload:
+    description: Reloads the Donut Hoppers configuration.
+    default: op
+  hoppers.info:
+    description: Shows the Donut Hoppers status.
+    default: true

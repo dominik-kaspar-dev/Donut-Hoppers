@@ -1,0 +1,5 @@
+hopper-speed-multiplier: 12.0
+chunk-limit-enabled: true
+chunk-placement-limit: 512
+chunk-limit-message: "&cYou cannot place any more hoppers in this chunk. The limit is {limit}."
+hopper-process-interval-ticks: 1

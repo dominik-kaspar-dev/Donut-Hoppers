@@ -1,0 +1,10 @@
+prefix: "&8[&dDonut Hoppers&8] "
+reload-success: "&aDonut Hoppers configuration reloaded."
+info-lines:
+  - "&eDonut Hoppers v{version} | Speed multiplier: {multiplier}x"
+  - "&eChunk limit: {limit} per chunk"
+  - "&eChunk limit enabled: {enabled}"
+chunk-limit-warning: "&cYou have exceeded the hopper limit in this chunk. Place fewer hoppers or change the limit in config."
+chunk-limit-denied: "&cYou cannot place another hopper in this chunk; the limit is {limit}."
+no-permission: "&cYou do not have permission to use that command."
+unknown-subcommand: "&cUnknown subcommand. Use /hoppers reload or /hoppers info."
