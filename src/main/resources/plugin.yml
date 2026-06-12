@@ -1,4 +1,4 @@
-name: Donut Hoppers
+name: DonutHoppers
 main: com.donuthoppers.DonutHoppersPlugin
 version: 1.0.0
 api-version: 1.21
@@ -8,7 +8,7 @@ commands:
   hoppers:
     description: Main Donut Hoppers command.
     usage: /<command> <reload|info>
-    aliases: [donuthoppers]
+    aliases: [donuthoppers, dh]
 permissions:
   hoppers.reload:
     description: Reloads the Donut Hoppers configuration.
